@@ -37,7 +37,7 @@ export default {
   ],
   pwa: {
     icon: false // disables the icon module
-  },
+  }, 
   i18n: {
     locales: ['en', 'fr', 'es'],
     defaultLocale: 'en',
