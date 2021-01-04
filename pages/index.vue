@@ -6,6 +6,7 @@
         <h1>{{$t('welcome')}}</h1>
     </div> -->
     <Test />
+    <Test2 />
 </div>
 </template>
 
