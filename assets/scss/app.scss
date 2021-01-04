@@ -1,22 +1,65 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
 @media only screen and (max-width: 900px) {
-   
-   
-   .main_header{
-       flex-direction:column;
-    .main_header_links{
-        margin-left: 0px !important;
-        margin-top:15px !important;
-        width: 100%;
+  .main_header {
+    .main_header_links {
+      margin-left: 0px !important;
+      margin-top: 15px !important;
+      width: 100%;
+      display: none;
+      position: absolute;
+      left: 0;
+      top: -100;
     }
-   }
-  
+
+    .responsive_buger {
+      display: block !important;
+    }
+  }
+}
+
+.show_menu {
+  display: block !important;
+  left: 0;
+  top: 0;
+  transition: top 0.2s ease-in-out;
+  width: 100%;
+  background: white;
+  z-index: 1;
+  .main_header_links_items {
+    flex-direction: column;
+
+    .main_header_links_items_item {
+    
+      &:hover {
+        .main_header_links_items_item_sub_items {
+        }
+      }
+
+      .main_header_links_items_item_sub_items {
+        cursor: pointer;
+        background: white;
+        z-index: 2;
+        top:-3px;
+        padding: 0;
+        .main_header_links_items_item_sub_item {
+          &:hover {
+            background: rgba(0, 0, 0, 0.8);
+            color: rgba(255, 255, 255, 0.8);
+            transition: background 0.1s ease-out;
+          }
+        }
+      }
+    }
+
+    .sub_menu {
+      position: relative;
+    }
+  }
 }
