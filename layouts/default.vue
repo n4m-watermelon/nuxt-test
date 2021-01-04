@@ -9,7 +9,7 @@
 
 <style>
 .content {
-    width: 850px;
+    width: 63vw;
     padding-top:15px;
     margin: 0 auto;
 }

@@ -29,6 +29,7 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     width: 100vw;
     height: 100px;
     background: #FFFFFF;
@@ -41,12 +42,14 @@ export default {
     .main_header_logo {
         font-weight: bold;
         font-family: 'Overpass Mono', monospace;
+        // width: 60%;
     }
 
     .main_header_links {
         margin-left: 315px;
 
         .main_header_links_items {
+            flex:1px;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -64,4 +67,5 @@ export default {
         }
     }
 }
+
 </style>
