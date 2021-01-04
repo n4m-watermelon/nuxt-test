@@ -31,13 +31,11 @@ export default {
     justify-content: center;
     flex-wrap: wrap;
     width: 100vw;
-    height: 100px;
-    background: #FFFFFF;
+    height: 80px;
+
     font-size: 18px;
-    border-bottom: 1px solid #DDDDDD;
-    -webkit-box-shadow: 0 10px 6px -6px #777;
-    -moz-box-shadow: 0 10px 6px -6px #777;
-    box-shadow: 0 5px 6px -6px #777;
+
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
 
     .main_header_logo {
         font-weight: bold;
@@ -49,7 +47,7 @@ export default {
         margin-left: 315px;
 
         .main_header_links_items {
-            flex:1px;
+            flex: 1px;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -67,5 +65,4 @@ export default {
         }
     }
 }
-
 </style>
