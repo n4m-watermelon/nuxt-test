@@ -1,10 +1,12 @@
 <template>
 <div class="container">
-    <div>
+    <!-- <div>
         <nuxt-link :to="switchLocalePath('en')">English</nuxt-link>
         <nuxt-link :to="switchLocalePath('fr')">Français</nuxt-link>
         <h1>{{$t('welcome')}}</h1>
-    </div>
+    </div> -->
+    <Test />
+    <Test2 />
 </div>
 </template>
 
