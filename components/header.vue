@@ -135,6 +135,7 @@ export default {
                     z-index: 2;
 
                     .main_header_links_items_item_sub_item {
+                        font-size: 15px;
                         &:hover {
                             background: rgba(0, 0, 0, .8);
                             color: rgba(255, 255, 255, .8);
