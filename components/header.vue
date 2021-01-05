@@ -120,7 +120,7 @@ export default {
 
                 .main_header_links_items_item_sub_items {
                     cursor: pointer;
-                    // background:white;
+                    background:white;
                     position: absolute;
                     left: 0;
                     top: 10;
@@ -129,8 +129,8 @@ export default {
                     align-items: flex-start;
                     justify-content: flex-start;
                     list-style: none;
-                    padding: 15px 10px;
-                    padding-left: 0;
+                    padding: 5px 10px;
+                   
                     display: none;
                     z-index: 2;
 
