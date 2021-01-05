@@ -1,6 +1,6 @@
 <template>
 <div class="flex-now bg-black">
-    <img  class="main-pic" :src="require('../assets/img/banner1.jpg')" alt="">
+    <img  class="main-pic" :src="require('../assets/img/bg1.jpg')" alt="">
 </div>
 </template>
 
@@ -14,13 +14,8 @@ export default {
 .bg-black {
     z-index: 2;
    
-    height: 400px;
-    width: 100%;
+ 
 
-    .main-pic{
-        width: 100%;
-        height: 100%;
-    }
     
 }
 
