@@ -1,11 +1,13 @@
 <template>
 <div class="container">
- <h1>content</h1>
+ <Banner></Banner>
 </div>
 </template>
 
 <script>
-export default {}
+import banner from '../components/banner.vue'
+export default {
+  components: { banner },}
 </script>
 
 <style>
